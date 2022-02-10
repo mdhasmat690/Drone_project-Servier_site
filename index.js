@@ -139,9 +139,9 @@ async function run() {
 run().catch(console.dir);
 
 app.get("/", (req, res) => {
-  res.send("drone limited product");
+  res.send("drone limited product test");
 });
 
 app.listen(port, () => {
-  console.log("Drone product server on  port ", port);
+  console.log("Drone product server on port ", port);
 });
